@@ -1,6 +1,6 @@
 import axios from 'axios';
 import authHeader from './authHeader';
-const API_URL = 'http://localhost:8000/car/details';
+const API_URL = 'https://car-project-server.herokuapp.com/car/details';
 
 class DetailService {
   getMakes() {

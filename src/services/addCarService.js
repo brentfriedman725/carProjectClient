@@ -1,5 +1,5 @@
 import axios from 'axios';
-const API_URL = 'http://localhost:8000/graphql';
+const API_URL = 'https://car-project-server.herokuapp.com/graphql';
 
 class AddCarService {
   makeCar(input) {

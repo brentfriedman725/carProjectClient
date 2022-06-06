@@ -1,5 +1,5 @@
 import axios from "axios";
-const API_URL = "http://localhost:8000/user/";
+const API_URL = "https://car-project-server.herokuapp.com/user/";
 class AuthService {
   login(username, password) {
     return axios
